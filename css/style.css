@@ -1,0 +1,483 @@
+/* 
+    Author: Himanshu Jha
+    Theme: Restaurant Food Order;
+    Version: 1.0;
+*/
+
+/* CSS for All */
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+
+.img-responsive {
+    width: 100%;
+}
+
+.img-curve {
+    border-radius: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+a {
+    color: #ff6b81;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4757;
+}
+
+.btn {
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #ff4757;
+    color: white;
+}
+
+h2 {
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.float-container {
+    position: relative;
+}
+
+.float-text {
+    position: absolute;
+    bottom: 10px;
+    left: 44%;
+}
+
+
+/* CSS for navbar section */
+
+.logo {
+    width: 10%;
+    float: left;
+}
+
+.menu {
+    line-height: 60px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for Food Search Section*/
+
+.food-search {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"] {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* CSS for Categories */
+.categories {
+    padding: 4% 0;
+}
+
+.box-3 {
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food menu */
+.food-menu {
+    background-color: #ececec;
+    padding: 4%;
+}
+
+.food-menu-box {
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img {
+    width: 33%;
+    float: left;
+}
+
+.food-menu-desc {
+    width: 59%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price {
+    font-size: 1.5rem;
+    margin: 2% 0;
+}
+
+.food-detail {
+    font-size: 0.9rem;
+    color: #747D8C;
+}
+
+/* CSS for Social */
+.social ul {
+    list-style-type: none;
+}
+
+.social ul li {
+    display: inline;
+    padding: 2%;
+}
+
+/* CSS for About Us Page  */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.about{
+    background: url(../images/about.jpg);
+    background-size: 55%;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.inner-section{
+    width: 55%;
+    float: right;
+    background-color: #d39393;
+    padding: 140px;
+    box-shadow: 12px 12px 8px rgb(0, 0,0,0.3);
+}
+
+.inner-section h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.skills button{
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 180px;
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.skills button:hover{
+    background-color: #ff4757;
+}
+
+
+
+/*CSS for Contact page*/
+.body{
+    margin: 0;
+     padding: 0;
+     background-size: cover;
+ }
+ 
+ .contact{
+    background: url(../images/about.jpg);
+    background-size: 55%;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    padding: 100px 0;
+}
+ 
+ .contact-form {
+     width: 55%;
+     max-width: 600px;
+     background: rgb(255, 255, 255);
+     position: absolute;
+     top: 55%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     padding: 30px 40px;
+     box-sizing: border-box;
+     border-radius: 8px;
+     text-align: center;
+     box-shadow: 0 0 10px #000000b3;
+     font-family: "Montserrat", sans-serif;
+ }
+ 
+ .contact-form h1 {
+     margin-top: 0;
+     font-weight: 200;
+ }
+ 
+ .txtb {
+     border: 1px solid gray;
+     margin: 8px 0;
+     padding: 12px 18px;
+     border-radius: 8px;
+ }
+ 
+ .txtb label {
+     display: block;
+     text-align: left;
+     color: #333;
+     text-transform: uppercase;
+     font-size: 14px;
+ }
+ 
+ .txtb input,.txtb textarea {
+     width: 100%;
+     border: none;
+     background: n;
+     outline: none;
+     font-size: 18;
+     margin-top: 6;
+ }
+ 
+ 
+ 
+   /*---- CSS Popup ----*/
+   .overlay {
+     position: absolute;
+     width: 60%;
+     height: 41%;
+     left: 21%;
+     top: 24%;
+     background: rgba(255, 255, 255, 0.6);
+     transition: opacity 0s;
+     opacity: 0;
+     visibility: hidden;
+   }
+ 
+   .popup {
+     width: 300px;
+     padding: 20px;
+     background: rgb(102, 89, 89);
+     border-radius: 5px;
+     position: absolute;
+     left: 50%;
+     top: 40px;
+     transform: translate(-50%, 0);
+     -webkit-transform: translate(-50%, 0);
+   }
+   .popup h2 {
+     margin-bottom: 20px;
+     color: rgb(255, 255, 255);
+   }
+ 
+   .popup p {
+     font-size: 16px;
+     line-height: 24px;
+     margin: 0;
+     background: white;
+   }
+ 
+   .popup .close {
+     position: calc(22);
+     top: 50px;
+     right: 10px;
+     transition: all 0.4s;
+     font-size: 23px;
+     line-height: 1px;
+     font-weight: bold;
+     text-decoration: none;
+     color: #000000(0, 0, 0);
+   }
+   .popup .close:hover {
+     color: rgb(130, 20, 20);
+   }
+ 
+   .btn-third {
+     display: inline-block;
+     margin-top: 10px;
+     padding: 10px 25px;
+     font-size: 16px;
+     color: #ff6b81;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-weight: 700;
+     border-radius: 25px;
+     border: 2px solid transparent;
+     transition: all 0.4s ease 0s;
+   }
+   .btn-third:hover {
+     background: #fff;
+     color: #ff4757;
+     border: 2px solid #ffffff;
+   }
+   
+   .overlay:target {
+     visibility: visible;
+     opacity: 1;
+   }
+   .overlay:target .popup {
+     animation: popup 0.5s linear;
+   }
+   
+   @-webkit-keyframes popup {
+     from {
+       top: 0;
+       opacity: 0;
+     }
+     to {
+       top: 100px;
+       opacity: 1;
+     }
+   }
+   @keyframes popup {
+     from {
+       top: 0;
+       opacity: 0;
+     }
+     to {
+       top: 100px;
+       opacity: 1;
+     }
+   }
+ 
+ 
+ 
+ /* CSS for Mobile Size or Smaller Screen */
+ 
+ @media only screen and (max-width:768px) {
+     .logo {
+         width: 80%;
+         float: none;
+         margin: 1% auto;
+     }
+ 
+     .menu ul {
+         text-align: center;
+     }
+ 
+     .food-search input[type="search"] {
+         width: 90%;
+         padding: 2%;
+         margin-bottom: 3%;
+     }
+ 
+     .btn {
+         width: 50%;
+         padding: 2%;
+     }
+ 
+     .food-search {
+         padding: 10% 0;
+     }
+ 
+     .categories {
+         padding: 20% 0;
+     }
+ 
+     h2 {
+         margin-bottom: 10%;
+     }
+ 
+     .box-3 {
+         width: 90%;
+         margin: 4% auto;
+     }
+ 
+     .food-menu {
+         padding: 20% 0;
+     }
+ 
+     .food-menu-box {
+         width: 90%;
+         padding: 5%;
+         margin-bottom: 5%;
+     }
+
+     .about{
+        padding: 0;
+     }
+     .inner-section{
+        padding: 60px;
+     }
+     .skills button{
+        font-size: 19px;
+        padding: 5px;
+        width: 160px;
+     }
+
+
+     .contact-form {
+         width: 80%;
+         height: 62%;
+         top: 64%;
+     }
+ 
+     .social {
+         padding: 5% 0;
+     }
+ }
